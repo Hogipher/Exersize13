@@ -1,0 +1,41 @@
+[info] Loading settings from plugins.sbt ...
+[info] Loading project definition from C:\Users\x03099\Documents\DONTDELETE\Classes\Cow Classes S1\CS478 Programming Languages\Homeworks\hw14-UnBothered1\project
+[info] Loading settings from build.sbt ...
+CS478: hw14 (EECS Tester 0.4.3)
+UnBothered1
+Data source: hw14.tests (remote)
+Begin testing firstPrimeAbove at Fri Nov 30 04:27:25 EST 2018
+...............................
+Test #32 *** FAILED ***
+  n = 40014
+  Test timed out after 500 milliseconds.
+Passed 31/32 tests in 0.782 seconds.
+Begin testing chunks at Fri Nov 30 04:27:26 EST 2018
+.
+Test #2 *** FAILED ***
+  list = List(2, 4, 6, 8, 7, 5, 3, 9)
+  Expected answer List(List(2, 4, 6, 8), List(7, 5, 3), List(9))
+  Received answer List(List(2, 4, 6, 8), List(7, 5, 3))
+.
+Test #4 *** FAILED ***
+  list = List()
+  java.util.NoSuchElementException: next on empty iterator
+    at scala.collection.LinearSeqLike$$anon$1.next(LinearSeqLike.scala:47)
+    at <init>(hw14.scala:28)
+XXXX.XXXX..X.XXX.XXXXXXXX.XXXXXXX.X.XXX.X.XXXXXXXXXXXXX.XXXXXXXXXXXXXX
+XXX..XXXX.XXXXXXXXXXXXXXXXXX
+Passed 16/102 tests in 0.266 seconds.
+Begin testing inOrder at Fri Nov 30 04:27:26 EST 2018
+Test #1 *** FAILED ***
+  tree = 
+   1
+  scala.NotImplementedError: an implementation is missing
+Test #2 *** FAILED ***
+  tree = 
+     0
+    /
+   3
+  scala.NotImplementedError: an implementation is missing
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Passed 0/120 tests in 0.516 seconds.
